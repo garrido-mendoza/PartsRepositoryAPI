@@ -1,0 +1,15 @@
+# Python artifacts
+*.pyc
+__pycache__/
+
+# Database
+*.db
+
+# Virtual environments
+dgm-env/
+.env/
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
