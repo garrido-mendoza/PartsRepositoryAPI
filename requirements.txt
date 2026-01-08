@@ -1,0 +1,12 @@
+fastapi          # backend framework for building the API
+uvicorn[standard] # ASGI server with extras (watchdog, websockets, etc.)
+sqlalchemy       # ORM for defining and managing database models
+pydantic         # data validation and parsing for request/response models
+alembic          # optional: database migrations (schema evolution)
+databases        # optional: async DB support if needed
+python-dotenv    # optional: load environment variables from a .env file
+httpx            # HTTP client used by the GUI to call the API
+PySide6          # GUI toolkit for building the desktop interface
+
+
+# rm parts_inventory.db python run.py
